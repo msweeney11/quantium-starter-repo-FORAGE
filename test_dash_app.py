@@ -3,7 +3,7 @@ from dash import Dash, html, dcc
 import dash.testing.browser
 from dash.testing.application_runners import import_app
 
-app = import_app("dashGraph")  # Ensure "dashGraph.py" is your app's filename
+app = import_app("dashGraph")
 
 @pytest.fixture
 def test_app(dash_duo):
